@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Ромашки",
+        "latin_name": "Matricaria",
+        "is_red_book_flower": false,
+        "price": 1
+    },
+    {
+        "id": 2,
+        "name": "Дельфиниум",
+        "latin_name": "Delphinium",
+        "is_red_book_flower": true,
+        "price": 9
+    },
+    {
+        "id": 3,
+        "name": "Гипсофила",
+        "latin_name": "Gypsophila fastigiata L.",
+        "is_red_book_flower": false,
+        "price": 2
+    },
+    {
+        "id": 4,
+        "name": "Роза",
+        "latin_name": "Rosa",
+        "is_red_book_flower": false,
+        "price": 1.7 
+    },
+    {
+        "id": 5,
+        "name": "Пион",
+        "latin_name": "Paeonia",
+        "is_red_book_flower": false,
+        "price": 3
+    }
+]
