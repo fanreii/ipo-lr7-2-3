@@ -43,7 +43,6 @@ while True:
         while not id.isdigit:
             print("Введено некорреткное значение")
             id = input("\nВведите номер записи: ")
-        id = int(id)
         for flower in data:
             if id == flower.get("id",0):
                 print(f"""
@@ -63,7 +62,6 @@ while True:
         while not id.isdigit:
             print("Введено некорректное значение. Повторите попытку: ")
             id = int(input("Введите новый номер записи: "))
-        id = int(id)
         for flower in data:
             if flower.get("id",0) == id:
                 find = True
@@ -112,7 +110,6 @@ while True:
         while not id.isdigit:
             print("Введено неверное значение!")
             input("Введите номер записи ещё раз: ")
-        id = int(id)
         find = False
         for flower in data:
             if flower.get("id", 0) == id:
